@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aac04f07ed1993043bf6b5639339223e, type: 3}
+  m_Name: Phoenix
+  m_EditorClassIdentifier: 
+  id: 2
+  name: Phoenix
+  description: A fiery Phoenix from the depths of Golthar
+  leftSprite: {fileID: -3428454164617442918, guid: 95a033d4a145089468c8c2823f912069, type: 3}
+  rightSprite: {fileID: -1320037196277676235, guid: 95a033d4a145089468c8c2823f912069, type: 3}
+  tag1: 3
+  tag2: 0
+  class1: 1
+  class2: 2
+  maxHP: 100
+  attack: 50
+  defense: 10
+  maxMP: 25
+  speed: 35
+  spAttack: 40
+  spDefense: 20
+  luck: 40
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 0d5c14e0c5f0c2d4ba1c803453259f54, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 10a334b6a64d6c3418670efa090e88de, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: 36b7dce00b35b534788ad69cd9f09353, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 0d5c14e0c5f0c2d4ba1c803453259f54, type: 2}
+    level: 0
